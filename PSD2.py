@@ -1,6 +1,8 @@
 """
 psd3.py
 
+USES SCHWABDEV PYTHON PACKAGE TO MANAGE TOKENS
+
 1) Fills historical 1-min data into the <symbol>_1min tables (in A:\lasha\Database\market_data.db)
    based on a roll sheet at A:\lasha\Database\contracts.csv with columns:
        Symbol, Front Contract, Back Contract, Roll Date
