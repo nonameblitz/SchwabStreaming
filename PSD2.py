@@ -45,8 +45,8 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Database and contracts sheet paths
-DB_PATH = r"A:\lasha\Database\market_data.db"
-CONTRACTS_CSV = r"A:\lasha\Database\contracts.csv"
+DB_PATH = r"Path to sqlite database"
+CONTRACTS_CSV = r"Path to contracts"
 
 # Initialize Schwab API client
 client = schwabdev.Client(
